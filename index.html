@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- SPLIDE -->
+	<!-- <link rel="stylesheet" href="vendor/splide/dist/css/splide.min.css"> -->
+	<link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+	<!-- RESET -->
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- BURGER -->
+	<link rel="stylesheet" href="css/burger.css">	
+	<!-- CUSTOM -->
+	<link rel="stylesheet" href="scss/style.css">
+	<!-- AWESOME BRANDS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+		integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<title>MaxGym</title>
+</head>
+
+<body>
+	<!-- GRID CONTAINER -->
+	<div id="grid_container">
+
+		<!-- HEADER CONTAINER -->
+		<header id="header_container">
+
+			<div class="container">
+
+				<div id="header_container_box">
+					<!-- LOGO -->
+					<div id="logo_box">
+						<a href="#slider_main"><img src="img/logo.png"></a>
+					</div>
+					<!-- NAV -->
+					<nav id="nav_container">
+						<div id="menu_box">
+							<ul id="menu">
+								<li><a href="#slider_services">Ejercicios</a></li>
+								<li><a href="#info">Subscripción</a></li>
+								<li><a href="#form">Apúntate</a></li>
+							</ul>
+							<div id="menu_btn">
+								<div id="burger"></div>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		
+		<!-- MAIN CONTAINER -->
+		<main id="main_container">
+			
+			<section id="slider_main">
+				<div id="slider">
+					<div id="image_slider" class="splide">
+						<div class="splide__track">
+							<ul class="splide__list">
+								<li class="splide__slide" style="background: linear-gradient(rgb(0,0,0), rgba(49,54,59,0.4)), url('img/pexels-photo-7031706.jpeg'); background-position: center; background-size: cover;">
+									<div class="container">
+										<div class="slider_text_box">
+											<div class="box">
+												<h3>¡No esperes más!</h3>
+												<a id="registro" href="#form">Apúntate</a>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="splide__slide" style="background: linear-gradient(rgb(0,0,0), rgba(49,54,59,0.4)), url('img/pexels-photo-7031705.jpeg'); background-position: center; background-size: cover;">
+									<div class="container">
+										<div class="slider_text_box">
+												<h3>Entrena sin límites</h3>
+												<span>¡El momento es ahora!</span>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="slider_services">
+				
+				<div class="container">
+					<h2>Ejercicios</h2>
+					<p class="sub_text">Entrenamientos libres y clases en grupo</p>
+
+					<div id="service_slider" class="splide">
+				
+						<div class="splide__track">
+							<ul class="splide__list">
+								
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="img/pexels-photo-4944973.jpeg">	
+									</div>
+									<p>Cinta de correr</p>
+									
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="img/pexels-photo-6339482.jpeg">
+									</div>
+									<p>Clases asistidas</p>
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="img/pexels-photo-2475875.jpeg">
+									</div>
+									<p>Mancuernas</p>
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="img/pexels-photo-4853714.jpeg">
+									</div>
+									<p>Pesas</p>
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="img/pexels-photo-3490348.jpeg">
+									</div>
+									<p>Mancuernas</p>
+								</li>
+								<li class="splide__slide">
+									<div class="splide__slide__container">
+										<img src="img/pexels-photo-10869102.jpeg">
+									</div>
+									<p>Clases asistidas</p>
+								</li>
+
+							</ul>
+						</div>
+						
+					</div>
+					<div class="line"></div>
+				</div>
+			</section>
+
+			<!-- SECTION MEMBERS -->
+
+			<section id="info">
+				<div class="container">
+					<h2>Subscripción</h2>
+					<p class="sub_text">Selecciona el tipo de abono</p>
+
+					<div id="member_box">
+						<!-- BASIC -->
+						<div id="basic">
+							<div class="header_member"><h4>Básico</h4></div>
+							<div class="body_member">
+								<div class="price">
+									<p id="price_basic">30€/mes</p>
+								</div>
+								<div class="text_price">
+									<p>
+										Accede a tu centro todos los días mañanas y tardes.
+										Siempre que la matrícula tenga promoción, la pulsera (3€) se abonará aparte y no será reembolsable.
+									</p>
+								</div>
+							</div>
+							<div class="button_member" id="btn_basic">
+								<a href="#form">Inscríbete</a>
+							</div>
+						</div>
+						<!-- PREMIUM -->
+						<div id="premium">
+							<div class="header_member"><h4>Premium</h4></div>
+							<div class="body_member">
+								<div class="price">
+									<p id="price_premium">45€/mes</p>
+								</div>
+								<div class="text_price">
+									<p>
+										Accede a cualquier centro todos los días.
+									</p>
+								</div>
+							</div>
+							<div class="button_member" id="btn_premium">
+								<a href="#form">Inscríbete</a>
+							</div>
+						</div>
+					</div>
+					<div class="line"></div>
+				</div>
+			</section>
+
+			<!-- SECTION FORM -->
+
+			<section id="form">
+				<div class="container">
+					<h2>Apúntate</h2>
+					<p class="sub_text">¡Estás a un paso de comenzar tu reto!</p>
+
+					<div id="form_box">
+
+						<div id="form_text">
+							<h3>Completa tus datos</h3>
+							<form action="">
+								<div id="datos">
+									<input type="text" id="nombre" placeholder="Nombre:">
+									<input type="text" id="apellido_1" placeholder="Primer apellido:">
+									<input type="text" id="apellido_2" placeholder="Segundo apellido:">
+									<input type="text" id="dni" placeholder="DNI:">
+									<input type="text" id="phone" placeholder="Teléfono:">
+									<input type="email" id="email" placeholder="Email:">
+								</div>
+								
+								<h5>Selecciona tu tarifa</h5>
+								<div id="tarifas">
+									<div>
+										<input type="radio" id="tarifa_basic" name="tarifa" value="30" onclick="precio_pago()">
+										<label for="tarifa_basic">Básico</label>
+									</div>
+
+									<div>
+										<input type="radio" id="tarifa_vip" name="tarifa" value="45" checked="checked" onclick="precio_pago()">
+										<label for="tarifa_vip">Premium</label>
+									</div>
+								</div>	
+								
+								<div id="precio_pago"></div>		
+								
+								<div id="terms_box">
+									<input type="checkbox" id="terminos" class="">
+									<label for="terminos">Acepto los <a href="#"> terminos y condiciones</a></label>
+								</div>
+
+								<div id="btn_registro">
+									<input type="submit" value="Registro" id="btn_form">
+								</div>
+
+							</form>
+						</div>
+						
+						<div id="map">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d95794.96051806868!2d2.00128432785485!3d41.38293706752425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a49cef36262571%3A0x9ff936d2a1d5a668!2sTeatre%20Atrium%20Viladecans!5e0!3m2!1ses!2ses!4v1646603005557!5m2!1ses!2ses"
+								style="border:0;" allowfullscreen="" loading="lazy">
+							</iframe>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			
+
+		</main>
+
+		<footer id="footer_container">
+			<div class="container">
+
+				<div id="footer_container_box">
+					<div id="contacto">
+						<h3>Contacto</h3>
+						<div>
+							<i class="fa-solid fa-phone"></i>
+							<span>+34 123 45 67 89</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-envelope"></i>
+							<span>maxgym@demo.com</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-location-dot"></i>
+							<span>Av. de Josep Tarradellas, 17, 08840 Viladecans, Barcelona</span>
+						</div>
+						<div>
+							<i class="fa-solid fa-clock"></i>
+							<span>Lun a Vie 9 a 22hs. Sáb 10 a 14hs.</span>
+						</div>
+
+					</div>
+					
+					<div id="partners">
+						<h5>Colaboradores</h5>
+						<div id="logos_partners">
+							<div><img src="img/partners/evergylogo_160x50.png" alt=""></div>
+							<div><img src="img/partners/lesmillslogo_160x50.png" alt=""></div>
+							<div class="s"><img src="img/partners/technogymlogo_160x50.png" alt=""></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div id="demo_box">
+				<p>Miguel Peral - Copyright © 2022</p>
+			</div>
+
+		</footer>
+
+	</div>
+
+
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+
+	<script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
+
+
+	<script>
+	  document.addEventListener( 'DOMContentLoaded', function () {
+
+
+	    /* Slider general */
+	    var splide_image = new Splide( '#image_slider', {
+	    	type   : 'loop',
+	    	perPage: 1,
+			autoplay: true,
+			interval: 5000,
+	    } );
+	    splide_image.mount();
+
+	    /* Slider servicios */
+	    var splide_service = new Splide( '#service_slider', {
+	    	type   : 'loop',
+	    	perPage: 4,
+			gap:'20px',
+	    	breakpoints: {
+	    		575: {
+	    			perPage: 1,
+	    		},
+	    		767: {
+	    			perPage: 2,
+	    		},
+	    		1199: {
+	    			perPage: 3,
+	    		},
+	    	},
+	    } );
+	    splide_service.mount();
+	  } );
+	</script>
+
+
+	<script src="js/burger.js"></script>
+	<script src="js/tarifas.js"></script>
+
+</body>
+</html>
